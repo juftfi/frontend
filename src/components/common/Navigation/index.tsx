@@ -51,7 +51,7 @@ const Navigation = () => {
                 
 
                 <Link
-                    to="https://x.com/juftfi_swap/"
+                    to="https://x.com/justfi_swap/"
                     target="_blank"
                     className="flex items-center py-2 px-4 gap-2 font-semibold max-sm:hidden select-none duration-200 border-b border-transparent hover:opacity-60"
                 >
