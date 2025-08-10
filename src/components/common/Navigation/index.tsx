@@ -48,16 +48,35 @@ const Navigation = () => {
                         {item.title}
                     </NavLink>
                 ))}
+                
+
                 <Link
-                    to="https://docs.algebra.finance/"
+                    to="https://x.com/juftfi_swap/"
                     target="_blank"
                     className="flex items-center py-2 px-4 gap-2 font-semibold max-sm:hidden select-none duration-200 border-b border-transparent hover:opacity-60"
                 >
-                    Docs <ArrowUpRight size={16} />
+                    Twitter
                 </Link>
+
+                <Link
+                    to="https://t.me/justfi_swap/"
+                    target="_blank"
+                    className="flex items-center py-2 px-4 gap-2 font-semibold max-sm:hidden select-none duration-200 border-b border-transparent hover:opacity-60"
+                >
+                    Telegram <ArrowUpRight size={16} />
+                </Link>
+
+                
+
             </ul>
+
+            
         </nav>
+
+        
     );
 };
+
+
 
 export default Navigation;
